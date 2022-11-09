@@ -11,10 +11,8 @@
 
 @font-face {
   font-family: Inter;
-  src: url(../font/Inter-VariableFont_slnt\,wght.ttf);
+  src: url(../font/Inter-VariableFont_slnt\wght.ttf);
 }
-
-
 
 body {
   margin: 0;
@@ -130,8 +128,6 @@ body {
   font-style: italic;
 }
 
-
-
 .dropdown-content a:hover {
   /* background-color: #ddd; */
 }
@@ -200,10 +196,10 @@ body {
 
 .service .container .row .col {
   background-color: white;
-    width: 80px;
-    height: 176px;
-    border-radius: 24px;
-    margin: 20px 32px 68px 28px;
+  width: 80px;
+  height: 176px;
+  border-radius: 24px;
+  margin: 20px 32px 68px 28px;
 }
 
 .service .container .row .col img {
@@ -244,13 +240,13 @@ body {
 
 .subcription .intro .col {
   display: flex;
-    width: 160px;
-    margin: 0 50px;
-    margin-bottom: 32px;
-    box-shadow: 4px 4px 100px #eb555573;
-    background: #f3e3e373;
-    border-radius: 30px;
-    padding: 16px;
+  width: 160px;
+  margin: 0 50px;
+  margin-bottom: 32px;
+  box-shadow: 4px 4px 100px #eb555573;
+  background: #f3e3e373;
+  border-radius: 30px;
+  padding: 16px;
 }
 
 .subcription .intro .col img {
@@ -379,9 +375,8 @@ h3 {
 }
 
 .reason .image-collection .row:nth-child(3) .col {
-  margin-bottom: 40px;;
+  margin-bottom: 40px;
 }
-
 
 /* footer */
 div .footer {

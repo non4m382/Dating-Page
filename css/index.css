@@ -11,10 +11,8 @@
 
 @font-face {
   font-family: Inter;
-  src: url(../font/Inter-VariableFont_slnt\,wght.ttf);
+  src: url(../font/Inter-VariableFont_slnt_wght.ttf);
 }
-
-
 
 body {
   margin: 0;
@@ -32,17 +30,17 @@ body {
 /* header */
 .header {
   background-image: linear-gradient(
-    to top,
-    rgb(249 94 94 / 50%),
-    rgb(253 60 60)
+    to bottom,
+    rgb(222, 86, 85),
+    rgb(237, 211, 206)
   );
   display: flex;
   height: 7%;
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   font-size: 20px;
   z-index: 10;
+  box-shadow: 4px 4px 10px #ffffff2e;
 }
 
 .header .header-left {
@@ -57,11 +55,19 @@ body {
 }
 
 .header .menu {
-  width: 160px;
+  /* width: 160px; */
   /* background-color: brown; */
   margin: 0 8px;
   height: 100%;
   margin-top: 6px;
+}
+
+.header .header-left .menu:first-child {
+  margin-top: 4px;
+}
+
+.header .header-left .menu:first-child img {
+  padding-top: 4px;
 }
 
 .header .header-left .logo {
@@ -95,7 +101,7 @@ body {
 
 .dropbtn {
   color: #f2f2f2;
-  padding: 12px;
+  padding: 10px 16px;
   font-size: 16px;
   border: none;
   width: 132px;
@@ -130,8 +136,6 @@ body {
   font-style: italic;
 }
 
-
-
 .dropdown-content a:hover {
   /* background-color: #ddd; */
 }
@@ -151,28 +155,46 @@ body {
 .content {
   padding: 16% 0;
   height: 100%;
-  /* border: 3px solid green; */
   text-align: center;
-  background-image: url("../img/Trang\ chủ-image.png");
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+  color: white;
+  background-color: #e7c7c7;
 }
 
-.content p {
+.content::before {
+  content: "";
+  background-image: url(../img/Trang\ chủ-image.png);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.25;
+}
+
+.content div {
+  z-index: 5;
+}
+
+.content div p {
   font-size: 6rem;
   color: white;
   text-shadow: 2px 2px 10px #dc9e9e;
+  position: relative;
 }
 
-.content a {
+.content div a {
   padding: 1% 4%;
   color: white;
   background-color: #e16360;
   background-image: linear-gradient(to top, #e16360, #e9aba1);
   border-radius: 32px;
   font-size: 2rem;
+  position: relative;
 }
 
 .service {
@@ -200,10 +222,10 @@ body {
 
 .service .container .row .col {
   background-color: white;
-    width: 80px;
-    height: 176px;
-    border-radius: 24px;
-    margin: 20px 32px 68px 28px;
+  width: 80px;
+  height: 176px;
+  border-radius: 24px;
+  margin: 20px 32px 68px 28px;
 }
 
 .service .container .row .col img {
@@ -244,13 +266,13 @@ body {
 
 .subcription .intro .col {
   display: flex;
-    width: 160px;
-    margin: 0 50px;
-    margin-bottom: 32px;
-    box-shadow: 4px 4px 100px #eb555573;
-    background: #f3e3e373;
-    border-radius: 30px;
-    padding: 16px;
+  width: 160px;
+  margin: 0 50px;
+  margin-bottom: 32px;
+  box-shadow: 4px 4px 100px #eb555573;
+  background: #f3e3e373;
+  border-radius: 30px;
+  padding: 16px;
 }
 
 .subcription .intro .col img {
@@ -379,9 +401,8 @@ h3 {
 }
 
 .reason .image-collection .row:nth-child(3) .col {
-  margin-bottom: 40px;;
+  margin-bottom: 40px;
 }
-
 
 /* footer */
 div .footer {

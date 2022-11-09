@@ -47,12 +47,12 @@ body {
 
 .header .header-left {
   display: flex;
-  width: 50%;
+  width: 54%;
 }
 
 .header .header-right {
   display: flex;
-  width: 50%;
+  width: 46%;
   display: inline-block;
 }
 
@@ -80,7 +80,7 @@ body {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 12px 16px;
+  padding: 10px 16px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -200,10 +200,10 @@ body {
 
 .service .container .row .col {
   background-color: white;
-  width: 80px;
-  height: 180px;
-  border-radius: 24px;
-  margin: 24px 40px 96px 12px;
+    width: 80px;
+    height: 176px;
+    border-radius: 24px;
+    margin: 20px 32px 68px 28px;
 }
 
 .service .container .row .col img {
@@ -235,9 +235,6 @@ body {
   background-color: #e7c7c7;
 }
 
-.subcription .intro {
-}
-
 .subcription .intro > h1 {
   padding: 72px 0 20px 0;
   font-style: italic;
@@ -247,13 +244,13 @@ body {
 
 .subcription .intro .col {
   display: flex;
-  width: 160px;
-  margin: 0 50px;
-  margin-bottom: 40px;
-  box-shadow: 4px 4px 100px #eb555573;
-  background: #f3e3e373;
-  border-radius: 30px;
-  padding: 16px;
+    width: 160px;
+    margin: 0 50px;
+    margin-bottom: 32px;
+    box-shadow: 4px 4px 100px #eb555573;
+    background: #f3e3e373;
+    border-radius: 30px;
+    padding: 16px;
 }
 
 .subcription .intro .col img {
@@ -267,13 +264,6 @@ body {
   font-style: italic;
 }
 
-/* .subcription .intro .col h1 {
-  margin: 0 16px;
-  width: 130px;
-  color: #e26e6d;
-  text-align: center;
-} */
-
 .subcription-content .table {
   margin: 0 auto;
   width: 60%;
@@ -285,6 +275,7 @@ body {
 
 .subcription-content .table td {
   vertical-align: middle;
+  /* font-size: small; */
 }
 
 .subcription-content .table tbody tr td:nth-child(1) {
@@ -319,7 +310,7 @@ thead tr {
 }
 
 .table tr {
-  height: 70px;
+  height: 60px;
 }
 
 .table thead th {

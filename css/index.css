@@ -306,7 +306,7 @@ body {
 
 .subcription-content .table {
   margin: 0 auto;
-  width: 60%;
+  width: 50%;
   table-layout: fixed;
   border: 1px black solid;
   border-collapse: collapse;
@@ -350,7 +350,7 @@ thead tr {
 }
 
 .table tr {
-  height: 60px;
+  height: 40px;
 }
 
 .table thead th {
@@ -485,10 +485,11 @@ ul {
   color: #df5756;
   align-items: center;
   display: flex;
-  margin-bottom: 80px;
+  margin-bottom: 24px;
 }
 
 .download h1 {
+  font-size: 1.6rem;
   display: inline-block;
   margin-right: 20px;
   text-transform: uppercase;
@@ -500,6 +501,7 @@ ul {
   margin: -4px;
   width: 240px;
   height: 100px;
+  object-fit: fill;
 }
 
 img {

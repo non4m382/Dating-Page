@@ -119,13 +119,19 @@ body {
 }
 
 .dropdown-content {
-  display: none;
+  display: none; 
   position: absolute;
-  background-color: #df565573;
-  min-width: 182px;
-  box-shadow: 2px 2px 20px 4px rgb(255 0 0 / 56%);
+  background-image: url(../img/list-color.png);
+  min-width: 240px;
   z-index: 1;
   text-align: left;
+  background-position-x: -23px;
+  background-position-y: -57px;
+  background-size: 283px 280px;
+  padding-left: 30px;
+  padding-bottom: 68px;
+  padding-top: -84px;
+  padding-right: 12px;
 }
 
 .dropdown-content a {

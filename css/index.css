@@ -221,7 +221,7 @@ body {
 
 .service .intro h1 {
   font-weight: 800;
-  font-size: 5rem;
+  font-size: 3rem;
   color: #df5655;
   margin-top: 40px;
 }
@@ -233,18 +233,18 @@ body {
 
 .service .container .row .col {
   background-color: white;
-  width: 80px;
-  height: 180px;
-  border-radius: 24px;
-  margin: 48px 32px 120px 28px;
+    width: 80px;
+    height: 172px;
+    border-radius: 24px;
+    margin: 36px 32px 40px 28px;
 }
 
 .service .container .row .col img {
-  width: 160px;
-  height: 280px;
+  width: 136px;
+  height: 212px;
   position: relative;
-  left: -20px;
-  top: -44px;
+  left: -4px;
+  top: -24px;
   display: block;
   border-radius: 12px;
   border: 1px solid #dac1c1;
@@ -258,7 +258,7 @@ body {
 
 .service-content h1 {
   color: #df5756;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .service-content p {
@@ -272,11 +272,11 @@ body {
 
 .subcription .intro {
   padding-top: 80px;
-  padding-bottom: 80px;
+  /* padding-bottom: 80px; */
 }
 
 .subcription .intro > h1 {
-  padding: 72px 0 20px 0;
+  padding: 0px 0 20px 0;
   font-style: italic;
   font-weight: 800;
   color: #df5756;
@@ -381,7 +381,7 @@ h3 {
 
 .reason .intro h1 {
   font-style: italic;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .reason .intro h4 {
@@ -405,7 +405,8 @@ h3 {
 }
 
 .reason .image-collection .row .col h2 {
-  height: 80px;
+  font-size: 1.6rem;
+  height: 40px;
   width: 400px;
   margin: auto;
 }
@@ -436,7 +437,7 @@ div .footer {
 .footer .container-fluid .social i {
   /* width: 200px; */
   color: gray;
-  margin-right: 72px;
+  margin-right: 36px;
   margin-bottom: 28px;
 }
 
@@ -455,8 +456,8 @@ div .footer {
 }
 
 div .footer .experience {
-  margin-top: 200px;
-  margin-bottom: 240px;
+  margin-top: 160px;
+  margin-bottom: 100px;
 }
 
 div .footer .experience h2 {
@@ -503,4 +504,8 @@ ul {
 
 img {
   object-fit: cover;
+}
+
+.special {
+  object-fit: fill;
 }

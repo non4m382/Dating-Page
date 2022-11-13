@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Destiny</title>
-    
+
     <link rel="icon" type="image/x-icon" href="img/Logo.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/docSlider.css">
@@ -21,7 +21,7 @@
         <div class="header-left">
             <div class="menu">
                 <img align="left" src="img/Logo.png" alt="">
-                <a href="#home" class="logo">Destiny</a>
+                <a href="#main-page" class="logo">Destiny</a>
             </div>
 
             <div class="menu dropdown">
@@ -29,8 +29,8 @@
                     <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Tính năng cao cấp</a>
-                    <a href="#">Các gói đăng ký
+                    <a href="#product">Tính năng cao cấp</a>
+                    <a href="#subcription">Các gói đăng ký
                         <ul>
                             <li>Destiny Plus*</li>
                             <li>Destiny VIP</li>
@@ -39,7 +39,7 @@
                     <a href="#">Swipe night</a>
                 </div>
             </div>
-            <div class="menu"><a href="#news">Tìm hiểu</a></div>
+            <div class="menu"><a href="#why-us">Tìm hiểu</a></div>
             <div class="menu dropdown ">
                 <button class="dropbtn">An toàn
                     <i class="fa fa-caret-down"></i>
@@ -55,7 +55,6 @@
 
             <div class="menu"><a href="#contact">Hỗ trợ</a></div>
 
-
             <div class="menu"> <a href="#download">Tải về</a></div>
         </div>
         <div class="header-right">
@@ -70,7 +69,7 @@
     </div>
 
     <div class="docSlider">
-        <section>
+        <section id="main-page">
             <div class="content">
                 <div>
                     <p class="title">Tìm Kiếm Nửa Kia</p>
@@ -81,7 +80,7 @@
         </section>
 
         <!-- 2. Chúng tôi có gì? -->
-        <section>
+        <section id="product">
             <div class="service">
                 <div class="intro">
                     <h1 class="title">Chúng tôi có gì?</h1>
@@ -136,7 +135,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="subcription">
             <div class="subcription">
                 <div class="intro">
                     <h1 class="text-center title">Gói thuê bao đăng ký</h1>
@@ -219,7 +218,7 @@
 
             </div>
         </section>
-        <section>
+        <section id="why-us">
             <div class="reason">
                 <div class="intro text-center">
                     <h1 class="text-center title" style="color: #df5655">Tại sao nên chọn chúng tôi?</h1>
@@ -259,7 +258,10 @@
 
 
             </div>
-            <div class="footer">
+
+        </section>
+        <section id="download">
+            <div class="footer" >
                 <div class="experience text-center justify-content-center">
                     <h2 class="title">Trải nghiệm ngay <i class="fa-solid fa-arrow-right"></i></h2>
                 </div>
@@ -321,7 +323,9 @@
                 </div>
             </div>
         </section>
+
     </div>
+
     <script src="js/docSlider.min.js"></script>
     <script>docSlider.init();</script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>

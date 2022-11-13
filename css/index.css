@@ -229,11 +229,11 @@ body {
 }
 
 .service .container .row .col img {
-  width: 220px;
-  height: 380px;
+  width: 200px;
+  height: 348px;
   position: relative;
-  left: -63px;
-  top: -60px;
+  left: -56px;
+  top: -72px;
   display: block;
   border-radius: 12px;
   border: 1px solid #dac1c1;
@@ -415,7 +415,7 @@ h3 {
 div .footer {
   background-color: #e4b9b7;
   padding-top: 120px;
-  height: 760px;
+  height: 100%;
 }
 
 .footer .container-fluid {
@@ -425,8 +425,8 @@ div .footer {
 .footer .container-fluid .social i {
   /* width: 200px; */
   color: gray;
-  margin-right: 36px;
-  margin-bottom: 16px;
+  margin-right: 72px;
+  margin-bottom: 28px;
 }
 
 .footer .container-fluid .footer-detail-info {
@@ -444,7 +444,8 @@ div .footer {
 }
 
 div .footer .experience {
-  margin-bottom: 160px;
+  margin-top: 200px;
+  margin-bottom: 240px;
 }
 
 div .footer .experience h2 {
@@ -472,7 +473,7 @@ ul {
   color: #df5756;
   align-items: center;
   display: flex;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 
 .download h1 {

@@ -1,3 +1,89 @@
+@font-face {
+  font-family: Roobert;
+  src: url(../font/Roobert-Regular.ttf);
+}
+
+@font-face {
+  font-family: Comfortaa;
+  src: url(../font/Comfortaa-VariableFont_wght.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(../font/static/Inter-ExtraLight.ttf);
+}
+
+body {
+  font-family: Inter;
+  color: #fef9f9;
+  text-shadow: 1px 1px 1px rgba(235, 210, 210, 0.219);
+  overflow: visible;
+}
+
 .main {
-    background-image: url(../img/header-color.png);
+  /* background-image: url(../img/header-color.png); */
+  background-color: #de5655;
+}
+
+.header {
+  padding: 40px 60px 0px 60px;
+  display: flex;
+  align-items: center;
+}
+
+.header a {
+  margin-right: 60px;
+}
+
+.header a i {
+  font-size: 72px;
+  color: whitesmoke;
+  /* padding-right: 60px; */
+}
+
+.header img {
+  width: 100px;
+  margin-right: 40px;
+}
+
+.header p {
+  font-size: 72px;
+  color: whitesmoke;
+  font-family: Comfortaa;
+  /* padding-bottom: 0px; */
+  margin: auto 0;
+}
+
+hr {
+  border: 0;
+  border-top: 4px solid #f5cdcc;
+  /* padding: 0px 59px; */
+  margin: 40px 12px;
+}
+
+.content {
+  padding: 0 60px;
+}
+
+.content h1 {
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.footer {
+    display: flex;
+    justify-content: end;
+    padding: 60px;
+}
+
+.footer button {
+  border: none;
+  color: #fef9f9;
+  background-color: #00ffff00;
+}
+
+.footer button i {
+    font-size: 72px;
 }
